@@ -5,4 +5,9 @@ cardiac_cost <- read.csv("C://Users//annik//OneDrive//Desktop//Bootcamp//MedData
 View(cardiac_cost)
 ## 42966 rows long
 ## 15 columns wide
-length(cardiac_cost$zip_code)
+
+###New COVID data
+# link https://www.kaggle.com/datasets/meirnizri/covid19-dataset
+covid_data <- read.csv("C://Users//annik//OneDrive//Desktop//Bootcamp//MedData//Covid Data.csv")
+View(covid_data)
+
